@@ -404,6 +404,13 @@ a:hover {
 }
 
 /* Image caption */
+
+@media (max-width: 1400px) {
+  .image-alt-text {
+    font-size: 7px;
+  }
+}
+
 .body-text .image > .image-alt-text {
   transition: opacity 0.2s;
   position: absolute;
